@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center items-start ">
       <div className="hero-blurb">
         <h2 className=" "> Hi, I'm Julian! </h2>
         <h2>Mechanical designer.</h2>
