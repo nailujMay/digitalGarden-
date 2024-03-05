@@ -5,10 +5,12 @@ import Body from "../Components/Body";
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="bg-custom-white min-h-screen">
       <Header />
-      <Hero />
-      <Body />
+      <main>
+        <Hero />
+        <Body />
+      </main>
     </div>
   );
 }
